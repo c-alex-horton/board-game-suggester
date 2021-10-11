@@ -1,0 +1,56 @@
+$color1: #f4f4f4;
+$color2: #3197ee;
+body {
+  background-color: #fff1c2;
+}
+input {
+  margin: 10px;
+}
+
+fieldset {
+  margin: 20px;
+}
+
+select {
+  max-width: 400px;
+}
+
+#results {
+  img {
+    max-width: 300px;
+    margin: 25px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .textBox {
+    margin: 25px;
+    text-align: start;
+  }
+}
+
+header {
+  background-color: #f1d26a;
+  i {
+    font-size: 50px;
+    margin: 20px;
+  }
+  .header {
+    width: 100%;
+  }
+}
+
+label {
+  display: inline-block;
+}
+
+@media (max-width: 450px) {
+  label {
+    display: block;
+    max-width: 300px;
+  }
+  input {
+    float: left;
+  }
+}
